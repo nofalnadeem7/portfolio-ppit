@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import SkillCard from "../components/SkillCard/SkillCard";
-import Footer from "../components/Footer/Footer";
 import { FaLaptopCode, FaRobot, FaServer, FaMobileAlt } from "react-icons/fa";
 
 const HomePage = () => {
@@ -74,7 +73,6 @@ const HomePage = () => {
         </div>
       </section>
 
-      <Footer />
     </div>
   );
 };
